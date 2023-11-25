@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+#music-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px; /* Adjust this width to match the width of your buttons container */
+}
+
+#buttons-container {
+    text-align: center; /* Center the buttons */
+}
+
+#buttons-container button {
+    margin: 0 5px; /* Space between buttons */
+    padding: 10px 15px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+/* Styling for all buttons */
+#buttons-container button,
+#finger-buttons-container button {
+    margin: 5px; /* Space between buttons */
+    padding: 10px 20px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    min-width: 50px; /* Minimum width of buttons */
+    text-align: center; /* Align text in the center */
+}
+
+/* Additional margin for the first row of buttons */
+#buttons-container {
+    margin-bottom: 30px; /* Increased space below the first row */
+}
+
+/* Optional: Center the button containers if they are not already centered */
+#buttons-container,
+#finger-buttons-container {
+    text-align: center;
+}
